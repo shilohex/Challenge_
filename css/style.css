@@ -1,56 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* first box design */
-body{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 50vh;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
+#istborder,
+#secborder {
+  width: 25vw;
+  height: 50vh;
+  display: flex;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 20px 0;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 #istborder {
-border: 1px solid black;
-display: flex;
-flex-direction: column;
-width:25vw ;
-height: 65vh;
-justify-content: center;
-background-color: hsl(241, 81%, 54%);
-border-radius: 20px;
-text-align: center;
+  background-color: hsl(241, 81%, 54%);
+  text-align: center;
 }
-
 
 #round {
-border: 1px black solid;
-border-radius: 20vh;
-
+  border: 1px black solid;
+  border-radius: 20vh;
 }
 
-#text{
-    display: flex;
-    flex-direction: column;
-    /* padding-bottom: 50vh; */
-
+#text {
+  display: flex;
+  flex-direction: column;
+  /* padding-bottom: 50vh; */
 }
-#low{
-    padding-bottom: 30vh;
-
+#low {
+  padding-bottom: 30vh;
 }
-
-
 
 #secborder {
-border: 1px solid black;
+  /* border: 1px solid black;
 display: flex;
 flex-direction: column;
 justify-content: center;
 width:25vw ;
 height: 65vh;
-border-radius: 20px;
-
+border-radius: 20px; */
 }
-
