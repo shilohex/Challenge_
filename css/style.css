@@ -10,15 +10,18 @@ body {
   align-items: center;
   height: 100vh;
 }
-
+#main{
+    width: 50vw;
+    display: flex;
+    border: 1px solid black;
+}
 #istborder,
 #secborder {
-  width: 25vw;
-  height: 50vh;
+  width: 50%;
   display: flex;
+  gap: 3vh;
   border-radius: 20px;
-  border: 1px solid black;
-  padding: 20px 0;
+  padding: 5vh 0;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -30,16 +33,15 @@ body {
 
 #round {
   border: 1px black solid;
-  border-radius: 20vh;
+  border-radius: 50px;
+  width: 120px;
+  height: 120px;
 }
 
 #text {
   display: flex;
   flex-direction: column;
-  /* padding-bottom: 50vh; */
-}
-#low {
-  padding-bottom: 30vh;
+  padding-bottom: 50vh;
 }
 
 #secborder {
