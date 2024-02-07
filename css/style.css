@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* first box design */
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50vh;
+}
+
+#istborder {
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+width:25vw ;
+height: 65vh;
+justify-content: center;
+background-color: hsl(241, 81%, 54%);
+border-radius: 20px;
+text-align: center;
+}
+
+
+#round {
+border: 1px black solid;
+border-radius: 20vh;
+
+}
+
+
+
+#secborder {
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width:25vw ;
+height: 65vh;
+border-radius: 20px;
+
+}
+
