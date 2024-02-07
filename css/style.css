@@ -30,6 +30,17 @@ border-radius: 20vh;
 
 }
 
+#text{
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 50vh; */
+
+}
+#low{
+    padding-bottom: 30vh;
+
+}
+
 
 
 #secborder {
