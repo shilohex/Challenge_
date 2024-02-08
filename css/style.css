@@ -13,29 +13,45 @@ body {
 #main{
     width: 50vw;
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    /* box-shadow: 1px 1px; */
+    box-shadow: 10px 10px 30px hsl(252, 65%, 91%);
+}
+h1,p{
+    font-family: ;
 }
 #istborder,
 #secborder {
   width: 50%;
   display: flex;
   gap: 3vh;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 5vh 0;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  
 }
 #istborder {
-  background-color: hsl(241, 81%, 54%);
+  background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
   text-align: center;
+  color: white;
 }
+#istborder h1
 
 #round {
   border: 1px black solid;
-  border-radius: 50px;
-  width: 120px;
-  height: 120px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  background: linear-gradient(hsl(256, 72%, 46%, 1),hsl(241, 72%, 46%, 0));
+  
+}
+#round h1{
+    size: 35px ;
+    
 }
 
 #text {
@@ -44,12 +60,73 @@ body {
   padding-bottom: 50vh;
 }
 
-#secborder {
-  /* border: 1px solid black;
-display: flex;
-flex-direction: column;
-justify-content: center;
-width:25vw ;
-height: 65vh;
-border-radius: 20px; */
+
+#color p{
+    border: 1px solid black;
 }
+
+#all-boxes{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.outer-box{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* width:  5px; */
+    /* height: 5px; */
+}
+#sum{
+    width:80%;
+}
+.inner-box{
+    display: flex;
+    gap: 3px;
+    border-radius: 10px;
+}
+
+#num1{
+    background-color:hsla(0, 100%, 67%,0.1) ;
+}
+#num1 .inner-box p{
+    color:hsl(0, 100%, 67%) ;
+}
+#num2{
+    background-color:hsla(39, 100%, 56%,0.1) ;
+}
+#num2 .inner-box p{
+    color:hsl(39, 100%, 56%) ;
+}
+#num3{
+    background-color:hsla(166, 100%, 37%,0.1) ;
+}
+#num3 .inner-box p{
+    color:hsl(166, 100%, 37%) ;
+}
+#num4{
+    background-color:hsla(234, 85%, 45%,0.1) ;
+}
+#num4 .inner-box p{
+    color:hsl(234, 85%, 45%) ;
+}
+#last{
+    width: 70%;
+    border-radius: 40px;
+    background-color:hsl(224, 30%, 27%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+#last:hover{
+     background-color:hsl(241, 81%, 54%);
+}
+
+
+
+
