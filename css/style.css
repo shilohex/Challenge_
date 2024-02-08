@@ -1,6 +1,9 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+ * {
   margin: 0;
   padding: 0;
+  font-family: 'Hanken Grotesk', sans-serif;
 }
 
 /* first box design */
@@ -18,9 +21,10 @@ body {
     /* box-shadow: 1px 1px; */
     box-shadow: 10px 10px 30px hsl(252, 65%, 91%);
 }
-h1,p{
-    font-family: ;
+.outer-box span{
+    color: rgba(128, 128, 128, 0.874);
 }
+
 #istborder,
 #secborder {
   width: 50%;
@@ -36,29 +40,46 @@ h1,p{
 #istborder {
   background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
   text-align: center;
-  color: white;
-}
-#istborder h1
-
-#round {
-  border: 1px black solid;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  align-items: center;
-  background: linear-gradient(hsl(256, 72%, 46%, 1),hsl(241, 72%, 46%, 0));
+  color: hsl(252, 70%, 87%);
   
 }
+/* #istborder h1{
+
+} */
+
+#round {
+  /* border: 1px black solid; */
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  background: linear-gradient(hsl(256, 72%, 46%, 1),hsl(241, 72%, 46%, 0));
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 #round h1{
-    size: 35px ;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.879);
     
 }
+#round p{
+    font-size: 15px;
+}
 
-#text {
+#ttxt p{
+margin: 20px;
+}
+#ttxt h1{
+    color: rgba(255, 255, 255, 0.879);
+    font-size: 23px;
+}
+
+/* #text {
   display: flex;
   flex-direction: column;
   padding-bottom: 50vh;
-}
+} */
 
 
 #color p{
@@ -83,6 +104,9 @@ h1,p{
 }
 #sum{
     width:80%;
+}
+#sum h1{
+    color: hsl(224, 30%, 27%);;
 }
 .inner-box{
     display: flex;
