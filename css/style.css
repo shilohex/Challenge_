@@ -11,7 +11,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
+  margin-top: 25vh;
 }
 #main{
     width: 50vw;
@@ -150,7 +151,20 @@ margin: 20px;
 #last:hover{
      background-color:hsl(241, 81%, 54%);
 }
-
-
+@media (max-width: 576px) {
+    #istborder,
+    #secborder {
+      width: 100%;
+    }
+    #main {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+  @media (min-width: 577px) and (max-width: 992px) {
+    #main {
+      width: 100%;
+    }
+  }
 
 
